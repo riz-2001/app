@@ -1,0 +1,17 @@
+@media only screen and (max-width:1535px){
+    html{
+      overflow-x: hidden;
+      width: 100%;
+    }
+    .rightnav a{
+        position: relative;
+        right:900px; 
+        background:#fff;
+        padding:1rem 2rem;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+    }
